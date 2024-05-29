@@ -5,7 +5,7 @@ import { Item } from '../types/item';
 
 export default function Home() {
   return (
-    <div className="bg-black h-screen">
+    <div className="bg-black min-h-screen flex flex-col">
       <Navbar />
       <div className="container mx-auto p-4 ">
         <h1 className="text-3xl font-bold mb-8 text-center">Item List</h1>
